@@ -1,0 +1,7 @@
+twilio
+python-dotenv
+openai
+flask
+requests
+Pillow
+matplotlib
