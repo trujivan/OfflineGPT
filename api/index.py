@@ -24,37 +24,33 @@ def incoming_sms():
     body = request.values.get('Body', '').strip().lower()
     
     if 'gpt' in body:
-        prompt_text = body.replace('generate text', '', 1)
-        response = openai.ChatCompletion.create(
+        prompt_text = body.replace('gpt', '', 1).strip()
+        response = aiclient.ChatCompletion.create(
             model="gpt-3.5-turbo",
-           messages=[
+            messages=[
                 {"role": "system", "content": "You are a helpful assistant."},
                 {"role": "user", "content": prompt_text}
             ]
         )
-        msg = resp.message(response.choices[0].message['content'].strip())
+        resp.message(response.choices[0].message['content'].strip())
     
     elif 'dalle' in body:
-        prompt_text = body.replace('image generate ', '', 1)
-         response = aiclient.images.generate(
-        model="dall-e-2",
-        prompt=body,
-        size="1024x1024",
-        quality="standard",
-        n=1,
-    )
-     msg = resp.message()
-    # Add a picture message
-    msg.media(
-        response.data[0].url
-    )
-
-    return str(resp)
+        prompt_text = body.replace('dalle', '', 1).strip()
+        response = aiclient.Image.create(
+            model="dall-e-2",
+            prompt=prompt_text,
+            n=1,
+            size="1024x1024"
+        )
+        msg = resp.message()
+        # Add a picture message
+        msg.media(response['data'][0]['url'])
+    
     elif 'stop' in body:
-        msg = resp.message("No more messaging from the service.")
+        resp.message("No more messaging from the service.")
     
     else:
-        msg = resp.message(DEFAULT_RESPONSE)
+        resp.message(DEFAULT_RESPONSE)
     
     return str(resp)
 
