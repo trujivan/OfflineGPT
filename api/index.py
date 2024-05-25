@@ -25,7 +25,7 @@ def incoming_sms():
     
     if 'gpt' in body:
         prompt_text = body.replace('gpt', '', 1).strip()
-        response = aiclient.ChatCompletion.create(
+        response = aiclient.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": "You are a helpful assistant."},
