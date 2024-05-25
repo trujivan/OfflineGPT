@@ -9,7 +9,7 @@ source offline-gpt-env/bin/activate
 pip install -r requirements.txt 
 ```
 ## run
-python3 ai-incognito.py
+python /api/index.py
 
 **Description:**
 Offline GPT is an innovative AI project designed to bring the power of neural networks to offline environments. In today's interconnected world, where data privacy and security are paramount concerns, NeuralNetOffline offers a unique solution by enabling AI processing without the need for constant internet connectivity.
@@ -27,13 +27,31 @@ Using advanced machine learning algorithms and neural network architectures, Off
 
 Whether you're a developer looking to embed AI functionality into your offline applications or an organization seeking to leverage AI in secure environments, NeuralNetOffline provides the tools and infrastructure to unlock the full potential of offline artificial intelligence. Experience the future of AI, without compromising on privacy or performance, with Offline GPT.
 
-## Get Started
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fpython%2Fflask3&demo-title=Flask%203%20%2B%20Vercel&demo-description=Use%20Flask%203%20on%20Vercel%20with%20Serverless%20Functions%20using%20the%20Python%20Runtime.&demo-url=https%3A%2F%2Fflask3-python-template.vercel.app%2F&demo-image=https://assets.vercel.com/image/upload/v1669994156/random/flask.png)
 
-![textGPT](assets/textGPT.png)
+## Flask + Vercel
 
-### By Texting
+This example shows how to use Flask 3 on Vercel with Serverless Functions using the [Python Runtime](https://vercel.com/docs/concepts/functions/serverless-functions/runtimes/python).
 
+## Demo
 
-You can use Offline GPT by texting the following number:
+https://flask-python-template.vercel.app/
 
-Text **"Offline GPT"** to **+1 (833) 799-1342**.
+## How it Works
+
+This example uses the Web Server Gateway Interface (WSGI) with Flask to enable handling requests on Vercel with Serverless Functions.
+
+## Running Locally
+
+```bash
+npm i -g vercel
+vercel dev
+```
+
+Your Flask application is now available at `http://localhost:3000`.
+
+## One-Click Deploy
+
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fpython%2Fflask3&demo-title=Flask%203%20%2B%20Vercel&demo-description=Use%20Flask%203%20on%20Vercel%20with%20Serverless%20Functions%20using%20the%20Python%20Runtime.&demo-url=https%3A%2F%2Fflask3-python-template.vercel.app%2F&demo-image=https://assets.vercel.com/image/upload/v1669994156/random/flask.png)
