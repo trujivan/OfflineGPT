@@ -36,7 +36,7 @@ def incoming_sms():
     
     elif 'dalle' in body:
         prompt_text = body.replace('dalle', '', 1).strip()
-        response = aiclient.Image.create(
+        response = aiclient.images.generate(
             model="dall-e-2",
             prompt=prompt_text,
             n=1,
