@@ -1,6 +1,15 @@
-# **Project Title:** Offline GPT
+**Project Title:** Offline GPT
 
-![OfflineGPT](logo.png) 
+![OfflineGPT](assets/logo.png)
+
+## install
+```
+python3 -m venv offline-gpt-env 
+source offline-gpt-env/bin/activate 
+pip install -r requirements.txt 
+```
+## run
+python3 ai-incognito.py
 
 **Description:**
 Offline GPT is an innovative AI project designed to bring the power of neural networks to offline environments. In today's interconnected world, where data privacy and security are paramount concerns, NeuralNetOffline offers a unique solution by enabling AI processing without the need for constant internet connectivity.
@@ -17,6 +26,3 @@ Using advanced machine learning algorithms and neural network architectures, Off
 
 
 Whether you're a developer looking to embed AI functionality into your offline applications or an organization seeking to leverage AI in secure environments, NeuralNetOffline provides the tools and infrastructure to unlock the full potential of offline artificial intelligence. Experience the future of AI, without compromising on privacy or performance, with Offline GPT.
-
-## Getting started
-![TextGPT](textGPT.png) 
