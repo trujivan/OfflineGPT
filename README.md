@@ -26,3 +26,14 @@ Using advanced machine learning algorithms and neural network architectures, Off
 
 
 Whether you're a developer looking to embed AI functionality into your offline applications or an organization seeking to leverage AI in secure environments, NeuralNetOffline provides the tools and infrastructure to unlock the full potential of offline artificial intelligence. Experience the future of AI, without compromising on privacy or performance, with Offline GPT.
+
+## Get Started
+
+![textGPT](assets/textGPT.png)
+
+### By Texting
+
+
+You can use Offline GPT by texting the following number:
+
+Text **"Offline GPT"** to **+1 (833) 799-1342**.
