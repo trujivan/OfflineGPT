@@ -1,8 +1,9 @@
 # Project Title: Offline GPT
 
-![OfflineGPT](assets/logo.png)
 
 ![demo](assets/demo.gif)
+
+![OfflineGPT](assets/logo.png)
 
 ## install
 ```
