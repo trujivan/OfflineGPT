@@ -44,7 +44,7 @@ def incoming_sms():
         )
         msg = resp.message()
         # Add a picture message
-        msg.media(response['data'][0].url)
+        msg.media(response.data[0].url)
     
     elif 'stop' in body:
         resp.message("No more messaging from the service.")
