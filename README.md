@@ -60,3 +60,24 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 ## Quick Start
 
 ![numberText](assets/textGPT.png)
+
+- Start by sending a text message. You will then be presented with an array of options for using the service.
+  
+![initial](assets/initial.png)
+
+```markdown
+> Welcome to OfflineGPT.
+> - Text 'Gpt' to use ChatGPT 3.5-turbo to generate a response based on provided text.
+> - Text 'Dalle' to use DALL-E to generate an image based on provided text keywords.
+> - Text 'Stop' to no more messaging from the service.
+```
+
+- If you text 'Gpt', you can make a prompt via SMS and receive a text response.
+  - Example Response:
+ 
+    
+- If you text 'Dalle', the service will generate an image based on keywords.
+  - Example Response:
+
+- If you text 'Stop', the service will halt.
+  - Example Response:
