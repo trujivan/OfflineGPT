@@ -32,7 +32,7 @@ def incoming_sms():
                 {"role": "user", "content": prompt_text}
             ]
         )
-        resp.message(response.choices[0].message['content'])
+        resp.message(response.choices[0].message.content)
     
     elif 'dalle' in body:
         prompt_text = body.replace('dalle', '', 1)
