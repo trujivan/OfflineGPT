@@ -73,11 +73,20 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 ```
 
 - If you text 'Gpt', you can make a prompt via SMS and receive a text response.
-  - Example Response:
+  - Example:
+    - Prompt: 'Gpt How many lemons does a lemon tree produce a year?'
+    - Response : 'The number of lemons produced by a lemon tree can vary depending on factors such as the age and health of the tree, the variety of lemon tree, the climate, and the care it receives. On average, a mature lemon tree can produce anywhere from 500 to 600 lemons per year. Some well-cared-for lemon trees have been known to produce even more fruit.'
+    ![GptText](assets/GptText.png)
+
  
     
 - If you text 'Dalle', the service will generate an image based on keywords.
-  - Example Response:
+  - Example:
+    - Prompt: 'Dalle a robo bee on a futuristic flower'
+    ![GptDalle](assets/GptDalle.png)
+
 
 - If you text 'Stop', the service will halt.
   - Example Response:
+    ![Stop](assets/Stop.png)
+
