@@ -1,4 +1,4 @@
-**Project Title:** Offline GPT
+# Project Title: Offline GPT
 
 ![OfflineGPT](assets/logo.png)
 
@@ -12,6 +12,10 @@ pip install -r requirements.txt
 ```
 ## run
 python /api/index.py
+
+to run this project, you will need:
+open ai API key
+twilio API key
 
 **Description:**
 Offline GPT is an innovative AI project designed to bring the power of neural networks to offline environments. In today's interconnected world, where data privacy and security are paramount concerns, NeuralNetOffline offers a unique solution by enabling AI processing without the need for constant internet connectivity.
@@ -63,19 +67,15 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 
 ![numberText](assets/textGPT.png)
 
-- Start by sending a text message. You will then be presented with an array of options for using the service.
+- Start by sending a text message; you will then be presented with an array of options for using the service.
+    - Response:   
   
 ![initial](assets/initial.png)
 
-```markdown
-> Welcome to OfflineGPT.
-> - Text 'Gpt' to use ChatGPT 3.5-turbo to generate a response based on provided text.
-> - Text 'Dalle' to use DALL-E to generate an image based on provided text keywords.
-> - Text 'Stop' to no more messaging from the service.
-```
+
 
 - If you text 'Gpt', you can make a prompt via SMS and receive a text response.
-  - Example:
+  - Example
     - Prompt: 'Gpt How many lemons does a lemon tree produce a year?'
     - Response : 'The number of lemons produced by a lemon tree can vary depending on factors such as the age and health of the tree, the variety of lemon tree, the climate, and the care it receives. On average, a mature lemon tree can produce anywhere from 500 to 600 lemons per year. Some well-cared-for lemon trees have been known to produce even more fruit.'
     ![GptText](assets/GptText.png)
@@ -83,12 +83,17 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
  
     
 - If you text 'Dalle', the service will generate an image based on keywords.
-  - Example:
+  - Example
     - Prompt: 'Dalle a robo bee on a futuristic flower'
+    - Response:
+      
     ![GptDalle](assets/GptDalle.png)
 
 
 - If you text 'Stop', the service will halt.
-  - Example Response:
+  - Example
+    - Prompt: 'Stop' 
+    - Response:
+    
     ![Stop](assets/Stop.png)
 
