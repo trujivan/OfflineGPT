@@ -11,6 +11,10 @@ pip install -r requirements.txt
 ## run
 python /api/index.py
 
+to run this project, you will need:
+open ai API key
+twilio API key
+
 **Description:**
 Offline GPT is an innovative AI project designed to bring the power of neural networks to offline environments. In today's interconnected world, where data privacy and security are paramount concerns, NeuralNetOffline offers a unique solution by enabling AI processing without the need for constant internet connectivity.
 
