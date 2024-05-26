@@ -1,9 +1,12 @@
 # Project Title: Offline GPT
 
+![OfflineGPT](assets/logo.png)
 
 ![demo](assets/demo.gif)
 
-![OfflineGPT](assets/logo.png)
+## **YouTube Video Demo**: 
+ [![Watch the video](https://img.youtube.com/vi/iuOdKnOYUZs/0.jpg)](https://www.youtube.com/watch?v=iuOdKnOYUZs)
+
 
 ## install
 ```
@@ -101,5 +104,4 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
     ![Stop](assets/Stop.png)
 
 
-## **YouTube Video Demo**: 
- [![Watch the video](https://img.youtube.com/vi/iuOdKnOYUZs/0.jpg)](https://www.youtube.com/watch?v=iuOdKnOYUZs)
+
