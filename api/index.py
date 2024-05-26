@@ -21,10 +21,10 @@ def incoming_sms():
     # Start our TwiML response
     resp = MessagingResponse()
     
-    body = request.values.get('Body', '').strip().lower()
+    body = request.values.get('Body', '').lower()
     
     if 'gpt' in body:
-        prompt_text = body.replace('gpt', '', 1).strip()
+        prompt_text = body.replace('gpt', '', 1)
         response = aiclient.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
@@ -35,7 +35,7 @@ def incoming_sms():
         resp.message(response.choices[0].message['content'])
     
     elif 'dalle' in body:
-        prompt_text = body.replace('dalle', '', 1).strip()
+        prompt_text = body.replace('dalle', '', 1)
         response = aiclient.images.generate(
             model="dall-e-2",
             prompt=prompt_text,
