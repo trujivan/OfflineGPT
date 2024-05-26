@@ -2,6 +2,8 @@
 
 ![OfflineGPT](assets/logo.png)
 
+![demo](assets/demo.gif)
+
 ## install
 ```
 python3 -m venv offline-gpt-env 
