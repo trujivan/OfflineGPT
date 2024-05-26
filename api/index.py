@@ -15,6 +15,10 @@ DEFAULT_RESPONSE ="""Welcome to OfflineGPT.
 - Text 'Dalle' to use DALL-E to generate an image based on provided text keywords.
 - Text 'Stop' to no more messaging from the service."""
 
+@app.route("/", methods=['GET'])
+def hello_world():
+    return "This is a twilio app and this server is only used for a webhook."
+
 @app.route("/sms", methods=['GET', 'POST'])
 def incoming_sms():
     """Send a dynamic reply to an incoming text message"""
