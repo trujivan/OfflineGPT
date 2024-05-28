@@ -4,9 +4,6 @@
 
 ![demo](assets/demo.gif)
 
-## **YouTube Video Demo**: 
- [![Watch the video](https://img.youtube.com/vi/iuOdKnOYUZs/0.jpg)](https://www.youtube.com/watch?v=iuOdKnOYUZs)
-
 
 ## install
 ```
