@@ -34,7 +34,7 @@ message = client.messages \
          body=text,
          media_url=media_url,
          from_='+18337991342',
-         to='+16692699094'
+         to='+'
      )
 
 
