@@ -33,7 +33,7 @@ message = client.messages \
     .create(
          body=text,
          from_='+18337991342',
-         to='+16692699094'
+         to='+'
      )
 
 print(message.sid)
